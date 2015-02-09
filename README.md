@@ -1,2 +1,2 @@
 # dotfiles
-ln -s ~/.vim/vimrc ~/.vimrc
+ln -s ~/dotfiles/.vimrc ~/.vimrc
