@@ -30,9 +30,11 @@ http://www.devops.zone/php-perl-ruby-python/installing-ruby-1-9-3-debian-squeeze
 	cd ~/dotfiles
 	git submodule add git://git.wincent.com/command-t.git .vim/bundle/command-t
 	git submodule init
+
 Updating:
 	cd ~/dotfiles/.vim/bundle/command-t
 	git pull
+
 Switching to a specific release:
 	cd ~/dotfiles/.vim/bundle/command-t
 	git checkout 1.10
