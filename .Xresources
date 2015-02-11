@@ -1,0 +1,4 @@
+! my customisations
+xterm*faceName: Inconsolata
+xterm*faceSize: 15
+xterm*termName: xterm-256color
