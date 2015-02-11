@@ -1,6 +1,6 @@
 ! my customisations
 xterm*faceName: Inconsolata
-xterm*faceSize: 15
+xterm*faceSize: 14
 xterm*termName: xterm-256color
 
 ! Base16 Summerfruit
@@ -23,33 +23,34 @@ xterm*termName: xterm-256color
 #define base0E #AD00A1
 #define base0F #cc6633
 
-*.foreground:   base02
-*.background:   base07
-*.cursorColor:  base02
+xterm*foreground:   base02
+xterm*background:   base07
+xterm*cursorColor:  base02
 
-*.color0:       base00
-*.color1:       base08
-*.color2:       base0B
-*.color3:       base0A
-*.color4:       base0D
-*.color5:       base0E
-*.color6:       base0C
-*.color7:       base05
+xterm*color0:       base00	! black
+xterm*color1:       base08	! red
+xterm*color2:       base0B	! green
+xterm*color3:       base0A	! yellow
+xterm*color4:       base0D	! blue
+xterm*color5:       base0E	! magenta
+xterm*color6:       base0C	! cyan
+xterm*color7:       base05	! white
 
-*.color8:       base03
-*.color9:       base08
-*.color10:      base0B
-*.color11:      base0A
-*.color12:      base0D
-*.color13:      base0E
-*.color14:      base0C
-*.color15:      base07
+xterm*color8:       base03	! black
+xterm*color9:       base08	! red
+xterm*color10:      base0B	! green
+xterm*color11:      base0A	! yellow
+xterm*color12:      base0D	! blue
+xterm*color13:      base0E	! magenta
+xterm*color14:      base0C	! cyan
+xterm*color15:      base07	! white
 
 ! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
 ! use 'shell' template to set these if necessary
-*.color16:      base09
-*.color17:      base0F
-*.color18:      base01
-*.color19:      base02
-*.color20:      base04
-*.color21:      base06
+xterm*color16:      base09
+xterm*color17:      base0F
+xterm*color18:      base01
+xterm*color19:      base02
+xterm*color20:      base04
+xterm*color21:      base06
+
