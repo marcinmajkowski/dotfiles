@@ -1,6 +1,7 @@
 # dotfiles
 	ln -s ~/dotfiles/.vimrc ~/.vimrc
 	ln -s ~/dotfiles/.vim ~/.vim
+	ln -s ~/dotfiles/.Xresources ~/.Xresources
 
 ## pathogen.vim installation
 https://github.com/tpope/vim-pathogen
@@ -35,6 +36,8 @@ https://chrisjean.com/2009/04/20/git-submodules-adding-using-removing-and-updati
 	git submodule init
 
 Updating:
+
+	git submodule update
 
 	cd ~/dotfiles/.vim/bundle/command-t
 	git pull
