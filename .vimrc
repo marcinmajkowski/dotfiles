@@ -10,7 +10,7 @@ syntax on		" Enable highlighting for syntax
 
 " Set summerfruit256 colorscheme
 set t_Co=256  " make use of 256 terminal colors
-color summerfruit256
+color visual_studio_light
 
 " Jump to the last position when reopening a file
 if has("autocmd")
