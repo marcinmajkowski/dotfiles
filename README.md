@@ -2,6 +2,7 @@
 	ln -s ~/dotfiles/.vimrc ~/.vimrc
 	ln -s ~/dotfiles/.vim ~/.vim
 	ln -s ~/dotfiles/.Xresources ~/.Xresources
+	ln -s ~/dotfiles/.bashrc ~/.bashrc
 
 ## pathogen.vim installation
 https://github.com/tpope/vim-pathogen
